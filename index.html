@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temukan tempat wisata terbaik di Banyuwangi - Kawah Ijen, Pantai Pulau Merah, dan destinasi menakjubkan lainnya">
+    <meta name="keywords" content="banyuwangi, wisata, kawah ijen, pantai pulau merah, blue fire">
+    <title>Pariwisata Banyuwangi - Destinasi Wisata Terbaik</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- LOADING SCREEN -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Amazing Banyuwangi...</div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation"> 
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/logo_bwi-removebg-preview.png" alt="Logo Banyuwangi" width="140" height="80">
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#destinations" class="nav-link">DESTINASI</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SLIDER SECTION -->
+    <section class="hero-slider" id="home">
+        <div class="slider-container">
+            <div class="slide active" data-bg="linear-gradient(135deg, rgba(0,123,255,0.8), rgba(0,212,255,0.6)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 1200 800&quot;><defs><pattern id=&quot;volcano&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;100&quot; height=&quot;100&quot; patternUnits=&quot;userSpaceOnUse&quot;><circle cx=&quot;50&quot; cy=&quot;50&quot; r=&quot;2&quot; fill=&quot;%23ffffff&quot; opacity=&quot;0.1&quot;/></pattern></defs><rect width=&quot;1200&quot; height=&quot;800&quot; fill=&quot;%230066cc&quot;/><rect width=&quot;1200&quot; height=&quot;800&quot; fill=&quot;url(%23volcano)&quot;/><polygon points=&quot;400,800 600,300 800,800&quot; fill=&quot;%234a90e2&quot; opacity=&quot;0.6&quot;/><circle cx=&quot;600&quot; cy=&quot;350&quot; r=&quot;20&quot; fill=&quot;%2300ffff&quot; opacity=&quot;0.8&quot;/></svg>')">
+                <img src="img/bec.webp" alt="bec">
+                <div class="slide-content">
+                </div>
+            </div>
+            <div class="slide" data-bg="linear-gradient(135deg, rgba(255,107,107,0.8), rgba(255,217,61,0.6)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 1200 800&quot;><rect width=&quot;1200&quot; height=&quot;800&quot; fill=&quot;%23ff6b6b&quot;/><path d=&quot;M200,600 Q400,400 600,600 Q800,400 1000,600 L1000,800 L200,800 Z&quot; fill=&quot;%23ffd93d&quot; opacity=&quot;0.7&quot;/><circle cx=&quot;600&quot; cy=&quot;400&quot; r=&quot;30&quot; fill=&quot;%23ffffff&quot; opacity=&quot;0.8&quot;/></svg>')">
+                <img src="img/PenariGandrungBanyuwangi.jpg" alt="Tarian Gandrung">
+                <div class="slide-content">
+                </div>
+            </div>
+            <div class="slide" data-bg="linear-gradient(135deg, rgba(81,207,102,0.8), rgba(34,184,207,0.6)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 1200 800&quot;><rect width=&quot;1200&quot; height=&quot;800&quot; fill=&quot;%2322b8cf&quot;/><ellipse cx=&quot;600&quot; cy=&quot;700&quot; rx=&quot;400&quot; ry=&quot;100&quot; fill=&quot;%234a90e2&quot; opacity=&quot;0.8&quot;/><polygon points=&quot;300,500 600,200 900,500 900,800 300,800&quot; fill=&quot;%2351cf66&quot; opacity=&quot;0.7&quot;/></svg>')">
+                <img src="img/Djawatan2.jpg" alt="Djawatan">
+                <div class="slide-content">
+                </div>
+            </div>
+            <div class="slide" data-bg="linear-gradient(135deg, rgba(255,167,38,0.8), rgba(255,112,67,0.6)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 1200 800&quot;><rect width=&quot;1200&quot; height=&quot;800&quot; fill=&quot;%23ff7043&quot;/><ellipse cx=&quot;600&quot; cy=&quot;600&quot; rx=&quot;500&quot; ry=&quot;200&quot; fill=&quot;%23ffffff&quot; opacity=&quot;0.6&quot;/><circle cx=&quot;200&quot; cy=&quot;150&quot; r=&quot;50&quot; fill=&quot;%23ffeb3b&quot; opacity=&quot;0.9&quot;/><path d=&quot;M0,500 Q300,400 600,500 Q900,400 1200,500 L1200,800 L0,800 Z&quot; fill=&quot;%234fc3f7&quot; opacity=&quot;0.7&quot;/></svg>')">
+                <img src="img/pulau bedil.jpeg" alt="pulau bedil">
+                <div class="slide-content">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hero Main Content -->
+        <div class="hero-main-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Welcome to Pariwisata Banyuwangi!</h1>
+                <p class="hero-subtitle">Banyuwangi terkenal karena keindahan alamnya, terutama di sektor wisata, budaya, dan kuliner. Beberapa tempat yang populer adalah Kawah Ijen dengan fenomena "Blue Fire", Pantai Pulau Merah, dan Djawatan.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToDestinations()">Jelajahi Sekarang</button>
+                    <button class="btn-secondary" onclick="playVideo()">Tonton Video</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Navigation -->
+        <div class="slide-nav">
+            <button class="slide-btn active" onclick="changeSlide(0)"></button>
+            <button class="slide-btn" onclick="changeSlide(1)"></button>
+            <button class="slide-btn" onclick="changeSlide(2)"></button>
+            <button class="slide-btn" onclick="changeSlide(3)"></button>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse"></div>
+            <span>Scroll untuk menjelajah</span>
+        </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Destinasi Wisata</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1000000">0</div>
+                    <div class="stat-label">Wisatawan per Tahun</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Budaya Tradisional</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Kuliner Khas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- DESTINATIONS SECTION -->
+        <section class="destinations-section" id="destinations">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Temukan Keajaiban</span>
+                    <h2 class="section-title">Destinasi Wisata Populer</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="destinations-grid">
+                    <article class="destination-card" data-category="alam">
+                        <div class="card-image">
+                            <img src="img/ijen.jpg" alt="Kawah Ijen">
+                            <div class="card-overlay">
+                                <div class="card-category">Wisata Alam</div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Kawah Ijen</h3>
+                            <p class="card-description">Saksikan fenomena Blue Fire yang langka dan danau kawah tosca yang memukau. Pendakian yang menantang namun sangat berkesan.</p>
+                            <div class="card-features">
+                                <span class="feature-tag">Blue Fire</span>
+                                <span class="feature-tag">Sunrise</span>
+                                <span class="feature-tag">Hiking</span>
+                            </div>
+                            <button class="card-btn">Jelajahi</button>
+                        </div>
+                    </article>
+
+                    <article class="destination-card" data-category="alam">
+                        <div class="card-image">
+                            <img src="img/Djawatan2.jpg" alt="De Djawatan">
+                            <div class="card-overlay">
+                                <div class="card-category">Wisata Bahari</div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">De Djawatan</h3>
+                            <p class="card-description"> Sering disebut sebagai “Hutan di Tengah Kota”. Pepohonan yang megah, jalan setapak yang tenang dan fenomena crown shines yang memesona De Djawatan terasa seperti melangkah ke dunia fantasi.</p>
+                            <div class="card-features">
+                                <span class="feature-tag">Spot foto</span>
+                                <span class="feature-tag">Photography</span>
+                                <span class="feature-tag">Fantasy</span>
+                            </div>
+                            <button class="card-btn">Jelajahi</button>
+                        </div>
+                    </article>
+
+                    <article class="destination-card" data-category="pantai">
+                        <div class="card-image">
+                            <img src="img/PM.jpeg" alt="Pantai Pulau Merah">
+                            <div class="card-overlay">
+                                <div class="card-category">Pantai</div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Pantai Pulau Merah</h3>
+                            <p class="card-description">Pantai eksotis dengan pasir putih dan ombak perfect untuk surfing. Nikmati sunset yang spektakuler di sini.</p>
+                            <div class="card-features">
+                                <span class="feature-tag">Surfing</span>
+                                <span class="feature-tag">Sunset</span>
+                                <span class="feature-tag">Beach</span>
+                            </div>
+                            <button class="card-btn">Jelajahi</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="filter-section">
+                    <h3>Filter Destinasi</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Semua</button>
+                        <button class="filter-btn" data-filter="alam">Wisata Alam</button>
+                        <button class="filter-btn" data-filter="pantai">Pantai</button>
+                        <button class="filter-btn" data-filter="budaya">Budaya</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-section">
+            <div class="cta-bg"></div>
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Gimana Traveler? Banyuwangi juga punya wisata yang bagus banget kan!?</h2>
+                    <p class="cta-subtitle">Jangan hanya bermimpi, wujudkan petualangan impianmu di Banyuwangi sekarang juga!</p>
+                    <div class="cta-buttons">
+                        <a href="https://banyuwangitourism.com" target="_blank" rel="noopener" class="cta-btn primary">
+                            Rencanakan Perjalanan
+                        </a>
+                        <button class="cta-btn secondary" onclick="openModal()">
+                            Hubungi Tour Guide
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pariwisata Banyuwangi</h3>
+                    <p>Jelajahi keindahan alam dan budaya Banyuwangi yang menakjubkan.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/majesticbanyuawangi?mebexstid=rS40aB7S9Ucbxw6v" class="social-link">Facebook</a>
+                        <a href="https://www.instagram.com/disbudparbanyuwangi?igsh=MTVpYXN1Nmo5MWdiNA==" class="social-link">Instagram</a>
+                        <a href="https://youtube.com/@banyuwangitourism1?si=8EgfmZ5IQNyaaai6M" class="social-link">YouTube</a>
+                        <a href="https://www.tiktok.com/@disbudparbanyuwangi?_t=ZS-zEUIkEdVwN&_r=1" class="social-link">TikTok</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Destinasi Populer</h4>
+                    <ul>
+                        <li><a href="#">Kawah Ijen</a></li>
+                        <li><a href="#">Pantai Pulau Merah</a></li>
+                        <li><a href="#">Pulau Bedil</a></li>
+                        <li><a href="#">Djawatan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pariwisata Banyuwangi. All rights reserved. Made with ❤️ for travelers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <h3>Hubungi Tour Guide</h3>
+            <p>Dapatkan pengalaman wisata terbaik dengan tour guide profesional kami!</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Nama Lengkap" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="No. Telepon" required>
+                <textarea name="message" placeholder="Pesan atau kebutuhan khusus" rows="4"></textarea>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
